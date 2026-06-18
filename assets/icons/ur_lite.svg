@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7A2CFF"/>
+      <stop offset="1" stop-color="#B57CFF"/>
+    </linearGradient>
+    <linearGradient id="book" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="96" fill="url(#bg)"/>
+  <rect x="108" y="182" width="296" height="220" rx="26" fill="url(#accent)" opacity="0.95"/>
+  <path d="M116 170c0-14 11-25 25-25h114c0 0 8 0 12 4l6 5c4 4 6 8 6 13v194c0 10-8 18-18 18H141c-14 0-25-11-25-25V170Z" fill="url(#book)"/>
+  <path d="M396 170c0-14-11-25-25-25H257c0 0-8 0-12 4l-6 5c-4 4-6 8-6 13v194c0 10 8 18 18 18h116c14 0 25-11 25-25V170Z" fill="url(#book)"/>
+  <path d="M254 170v220" stroke="#0f172a" stroke-width="8" opacity="0.72"/>
+  <path d="M143 222c34 0 71 0 108 0" stroke="#60a5fa" stroke-width="14" stroke-linecap="round"/>
+  <path d="M143 268c34 0 71 0 108 0" stroke="#60a5fa" stroke-width="14" stroke-linecap="round"/>
+  <path d="M143 314c34 0 71 0 108 0" stroke="#60a5fa" stroke-width="14" stroke-linecap="round"/>
+  <path d="M273 202h66c29 0 52 23 52 52s-23 52-52 52h-29l-4 34h-33l8-138h-8Zm33 31-3 46h30c13 0 23-10 23-23s-10-23-23-23h-27Z" fill="#3b82f6"/>
+  <path d="M156 404h200" stroke="#93c5fd" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+</svg>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feedback and Rating | UR Lite</title>
+  <meta name="description" content="Send honest feedback and ratings for UR Lite.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="UR Lite home">
+        <img src="assets/icons/ur_lite_256.png" alt="" class="brand-mark" width="32" height="32">
+        <span>UR Lite</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="about.html">About</a>
+        <a href="readme.html">README</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Support</a>
+        <a class="nav-cta" href="feedback.html" aria-current="page">Feedback</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="section">
+      <div class="container content-narrow">
+        <p class="eyebrow">Feedback</p>
+        <h1>Feedback and Rating</h1>
+        <p class="lead">Thank you for trying UR Lite. Your feedback helps improve the app.</p>
+
+        <form class="feedback-form" action="mailto:support@universalreaderlite.com" method="post" enctype="text/plain">
+          <div class="form-grid">
+            <label>
+              <span>Name, optional</span>
+              <input type="text" name="name" autocomplete="name">
+            </label>
+            <label>
+              <span>Email, optional</span>
+              <input type="email" name="email" autocomplete="email">
+            </label>
+          </div>
+
+          <label>
+            <span>UR Lite version</span>
+            <input type="text" name="ur-lite-version" placeholder="Example: 1.0.0">
+          </label>
+
+          <label>
+            <span>What did you like?</span>
+            <textarea name="liked" rows="4"></textarea>
+          </label>
+
+          <label>
+            <span>What did not work well?</span>
+            <textarea name="not-working" rows="4"></textarea>
+          </label>
+
+          <label>
+            <span>What file type were you using?</span>
+            <select name="file-type">
+              <option value="">Select a file type</option>
+              <option value="PDF">PDF</option>
+              <option value="EPUB">EPUB</option>
+              <option value="DOCX">DOCX</option>
+              <option value="TXT">TXT</option>
+              <option value="CBR">CBR</option>
+              <option value="CBZ">CBZ</option>
+              <option value="Other">Other</option>
+            </select>
+          </label>
+
+          <fieldset class="rating-fieldset">
+            <legend>Overall rating</legend>
+            <div class="rating-options">
+              <label><input type="radio" name="rating" value="1"> <span>1 star</span></label>
+              <label><input type="radio" name="rating" value="2"> <span>2 stars</span></label>
+              <label><input type="radio" name="rating" value="3"> <span>3 stars</span></label>
+              <label><input type="radio" name="rating" value="4"> <span>4 stars</span></label>
+              <label><input type="radio" name="rating" value="5"> <span>5 stars</span></label>
+            </div>
+            <p id="rating-message" class="rating-message" aria-live="polite"></p>
+          </fieldset>
+
+          <button class="button button-primary" type="submit">Submit Feedback</button>
+        </form>
+
+        <section class="info-panel section-nested" aria-labelledby="honest-rating-title">
+          <h2 id="honest-rating-title">Happy with UR Lite?</h2>
+          <p>If UR Lite worked well for you, an honest review helps other users decide whether the app is right for them.</p>
+          <!-- Replace this with the public review link after the app is listed on the chosen marketplace or review platform. -->
+          <a class="button button-secondary" href="#">Leave an Honest Rating</a>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 UR Lite. All rights reserved.</p>
+      <nav aria-label="Footer navigation">
+        <a href="about.html">About</a>
+        <a href="readme.html">README</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
