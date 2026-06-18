@@ -16,14 +16,7 @@
   if (ratingInputs.length && ratingMessage) {
     Array.prototype.forEach.call(ratingInputs, function (input) {
       input.addEventListener("change", function () {
-        var value = Number(input.value);
-
-        if (value >= 4) {
-          ratingMessage.textContent = "We're glad UR Lite worked well for you. You may also leave an honest public review.";
-          return;
-        }
-
-        ratingMessage.textContent = "Sorry UR Lite did not meet your expectations. Please tell us what happened so we can improve.";
+        ratingMessage.textContent = "Thank you. Please add any details you want to share before submitting.";
       });
     });
   }

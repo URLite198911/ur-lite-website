@@ -22,6 +22,7 @@
       <nav id="site-nav" class="site-nav" aria-label="Main navigation">
         <a href="about.html">About</a>
         <a href="readme.html">README</a>
+        <a href="reviews.html">Reviews</a>
         <a href="privacy.html">Privacy</a>
         <a href="support.html">Support</a>
         <a class="nav-cta" href="feedback.html" aria-current="page">Feedback</a>
@@ -89,14 +90,24 @@
             <p id="rating-message" class="rating-message" aria-live="polite"></p>
           </fieldset>
 
+          <fieldset class="permission-fieldset">
+            <legend>Public review permissions</legend>
+            <div class="checkbox-options">
+              <label><input type="checkbox" name="publish-comment" value="yes"> <span>UR Lite may publish my comment on universalreaderlite.com.</span></label>
+              <label><input type="checkbox" name="show-name" value="yes"> <span>Show my name with the comment.</span></label>
+              <label><input type="checkbox" name="show-first-name" value="yes"> <span>Show only my first name.</span></label>
+              <label><input type="checkbox" name="show-anonymous-verified-user" value="yes"> <span>Show as anonymous verified user.</span></label>
+            </div>
+            <p class="form-note">Public reviews are published only with user permission. Feedback may also be used privately to improve UR Lite.</p>
+          </fieldset>
+
           <button class="button button-primary" type="submit">Submit Feedback</button>
         </form>
 
         <section class="info-panel section-nested" aria-labelledby="honest-rating-title">
-          <h2 id="honest-rating-title">Happy with UR Lite?</h2>
-          <p>If UR Lite worked well for you, an honest review helps other users decide whether the app is right for them.</p>
-          <!-- Replace this with the public review link after the app is listed on the chosen marketplace or review platform. -->
-          <a class="button button-secondary" href="#">Leave an Honest Rating</a>
+          <h2 id="honest-rating-title">Public reviews</h2>
+          <p>Public reviews are published only after users submit feedback and give permission to publish it.</p>
+          <a class="button button-secondary" href="reviews.html">View Reviews</a>
         </section>
       </div>
     </section>
@@ -108,9 +119,10 @@
       <nav aria-label="Footer navigation">
         <a href="about.html">About</a>
         <a href="readme.html">README</a>
-        <a href="feedback.html">Feedback</a>
+        <a href="reviews.html">Reviews</a>
         <a href="privacy.html">Privacy</a>
         <a href="support.html">Support</a>
+        <a href="feedback.html">Feedback</a>
       </nav>
     </div>
   </footer>
