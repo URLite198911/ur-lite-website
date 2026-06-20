@@ -46,7 +46,8 @@ Open `index.html` directly in a browser. No build step is required.
 
 ## Replace Before Launch
 
-- Replace the `Buy UR Lite - $4.99` placeholder href in `index.html` with the Lemon Squeezy checkout link.
+- UR Lite is temporarily offered as a free GitHub preview download while Lemon Squeezy store activation is under review.
+- After Lemon Squeezy approval is complete, replace the `Support Development` coming-soon button in `index.html` with the live Lemon Squeezy checkout link.
 - Replace the `Leave an Honest Rating` placeholder href in `feedback.html` with the public review link after the app is listed on the chosen marketplace or review platform.
 - Replace `support@universalreaderlite.com` if the support email changes.
 
